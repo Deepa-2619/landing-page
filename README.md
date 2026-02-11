@@ -1,3 +1,3 @@
 # landing-page
-This is my First git Repository
-author - Deeparani Nayak
+This is my First git Repository.
+Author - Deeparani Nayak
