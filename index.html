@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Landing-Page</title>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar sticky-top">
+        <div class="container">
+
+            <!-- LOGO -->
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="image/download.jpg" width="48" class="me-2">
+                <span class="brand-text">RealEstate</span>
+            </a>
+
+            <!-- TOGGLER -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU -->
+            <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+                <ul class="navbar-nav gap-4">
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">For Sale</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">For Rent</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">New Property</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blogs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- ACTION -->
+            <a href="#" class="btn login-btn px-4">Login</a>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero-section py-5" data-aos="fade-right" data-aos-duration="1000">
+
+        <div class="container header">
+
+            <!-- TEXT -->
+            <h1 class="hero-title animate-text">
+                Discover Property<br> More Easily
+            </h1>
+            <br>
+
+            <p class="hero-sub animate-text">
+                Thyo Softtech helped people find their perfect<br>
+                home for better life
+            </p>
+
+            <div class="row justify-content-start mt-4">
+
+                <!-- ENQUIRY FORM -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm glass-form">
+                        <div class="card-body p-4">
+
+                            <h5 class="fw-bold text-center mb-4 text-white">
+                                Enquiry Form
+                            </h5>
+
+                            <form>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-white">Full Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter your full name" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-white">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-white">Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="Enter phone number" required>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">
+                                    Submit
+                                </button>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="search-box" data-aos="zoom-in">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <select class="form-select custom-select">
+
+                            <option>Location</option>
+                            <option>Bengaluru</option>
+                            <option>Pune</option>
+                            <option>Hyderabad</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select custom-select">
+
+                            <option>Property Type</option>
+                            <option>Villa</option>
+                            <option>Apartment</option>
+                            <option>Plot</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select custom-select">
+
+                            <option>BHK</option>
+                            <option>2 BHK</option>
+                            <option>3 BHK</option>
+                            <option>4 BHK</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-primary w-100 h-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <h3 class="fw-bold mb-4 text-black" data-aos="fade-down-right" data-aos-delay="700">Featured Property</h3>
+
+            <div class="row g-4">
+
+                <!-- LEFT BIG CARD -->
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="property-card large-card" data-aos="fade-down-right" data-aos-delay="820">
+                        <img src="image/a.jpg" alt="" class="image">
+                        <div class="property-info" data-aos="fade-down-right" data-aos-delay="830">
+                            <div>
+                                <h5>Paragon Appartement</h5>
+                                <p><i class="fa-solid fa-location-dot"></i> Laweyan, Surakarta</p>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT SMALL CARDS -->
+                <div class="col-md-6" data-aos="zoom-in">
+                    <div class="row g-4" data-aos="fade-down-left">
+
+                        <div class="col-12" data-aos="fade-down-left">
+                            <div class="property-card small-card" data-aos="fade-down-left">
+                                <img src="image/h.jpg" alt="" class="image">
+                                <div class="property-info">
+                                    <div data-aos="fade-down-left">
+                                        <h6>Barata Raya Real Estate</h6>
+                                        <p><i class="fa-solid fa-location-dot"></i> Mondoteko, Bekasi</p>
+                                    </div>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12" data-aos="zoom-in">
+                            <div class="property-card small-card" data-aos="fade-down-left">
+                                <img src="image/p.jpg" alt="" class="image">
+                                <div class="property-info" data-aos="fade-down-left">
+                                    <div>
+                                        <h6>Perumahan Smart Sultan</h6>
+                                        <p><i class="fa-solid fa-location-dot"></i> Buah Batu, Bandung</p>
+                                    </div>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+
+            <div class="row g-4" data-aos="zoom-in">
+
+                <!-- CARD 1 -->
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-right">
+                    <div class="property-card">
+                        <div class="img-wrapper">
+                            <img src="image/i1.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="fade-right">
+                            <h6>White Home Alam Sutra</h6>
+
+                            <div class="info" data-aos="fade-right">
+                                <span><i class="fa-solid fa-bed"></i> 4</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black">$120,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-right">
+                    <div class="property-card">
+                        <div class="img-wrapper">
+                            <img src="image/i2.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="fade-right">
+                            <h6>Europe palm view</h6>
+
+                            <div class="info">
+                                <span><i class="fa-solid fa-bed"></i> 3</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 210m²</span>
+                            </div>
+
+                            <div class="price text-black" data-aos="fade-right">$80,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper" data-aos="zoom-in">
+                            <img src="image/i3.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap" data-aos="fade-right">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="fade-right">
+                            <h6>Glow view Residence</h6>
+
+                            <div class="info" data-aos="fade-right">
+                                <span><i class="fa-solid fa-bed"></i> 5</span>
+                                <span><i class="fa-solid fa-bath"></i> 3</span>
+                                <span><i class="fa-solid fa-expand"></i> 260m²</span>
+                            </div>
+
+                            <div class="price text-black" data-aos="fade-right">$160,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper" data-aos="fade-right">
+                            <img src="image/i4.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap" data-aos="fade-right">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="fade-right">
+                            <h6>villa dell monde ubud</h6>
+
+                            <div class="info" data-aos="fade-right">
+                                <span><i class="fa-solid fa-bed"></i> 3</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 180m²</span>
+                            </div>
+
+                            <div class="price text-black" data-aos="fade-right">$150,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper" data-aos="fade-right">
+                            <img src="image/i5.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap" data-aos="fade-right">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="fade-right">
+                            <h6>Palm view Residence</h6>
+
+                            <div class="info" data-aos="fade-right">
+                                <span><i class="fa-solid fa-bed"></i> 3</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black" data-aos="fade-right">$190,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper" data-aos="fade-right">
+                            <img src="image/i6.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap" data-aos="fade-right">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="zoom-in">
+                            <h6>Europe palm view</h6>
+
+                            <div class="info" data-aos="fade-right">
+                                <span><i class="fa-solid fa-bed"></i> 5</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black" data-aos="zoom-in">$220,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper" data-aos="fade-right">
+                            <img src="image/i7.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap" data-aos="fade-right">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="fade-right">
+                            <h6>White Home Alam Sutra</h6>
+
+                            <div class="info" data-aos="fade-right">
+                                <span><i class="fa-solid fa-bed"></i> 4</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black" data-aos="fade-right">$120,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper" data-aos="fade-right">
+                            <img src="image/i8.jpg" alt="" class="image">
+                            <span class="location"><i class="fa-solid fa-location-dot"></i> Denpasar, Bali</span>
+
+                            <div class="badge-wrap" data-aos="zoom-in">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body" data-aos="fade-right">
+                            <h6>Glow view Residence</h6>
+
+                            <div class="info" data-aos="fade-right">
+                                <span><i class="fa-solid fa-bed"></i> 4</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black" data-aos="fade-right">$120,000.00</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 d-none extra-card" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper">
+                            <img src="image/i9.jpg" alt="" class="image">
+                            <span class="location">
+                                <i class="fa-solid fa-location-dot"></i> Denpasar, Bali
+                            </span>
+
+                            <div class="badge-wrap">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating">
+                                    <i class="fa-solid fa-star"></i> 4.8
+                                </span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body">
+                            <h6>White Home Alam Sutra</h6>
+
+                            <div class="info">
+                                <span><i class="fa-solid fa-bed"></i> 4</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black">$120,000.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-none extra-card" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper">
+                            <img src="image/i10.jpg" alt="" class="image">
+                            <span class="location">
+                                <i class="fa-solid fa-location-dot"></i> Denpasar, Bali
+                            </span>
+
+                            <div class="badge-wrap">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating">
+                                    <i class="fa-solid fa-star"></i> 4.8
+                                </span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body">
+                            <h6>White Home Alam Sutra</h6>
+
+                            <div class="info">
+                                <span><i class="fa-solid fa-bed"></i> 4</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black">$120,000.00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 d-none extra-card" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper">
+                            <img src="image/i11.jpg" alt="" class="image">
+                            <span class="location">
+                                <i class="fa-solid fa-location-dot"></i> Denpasar, Bali
+                            </span>
+
+                            <div class="badge-wrap">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating">
+                                    <i class="fa-solid fa-star"></i> 4.8
+                                </span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body">
+                            <h6>White Home Alam Sutra</h6>
+
+                            <div class="info">
+                                <span><i class="fa-solid fa-bed"></i> 4</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black">$120,000.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-none extra-card" data-aos="zoom-in">
+                    <div class="property-card">
+                        <div class="img-wrapper">
+                            <img src="image/i12.jpg" alt="" class="image">
+                            <span class="location">
+                                <i class="fa-solid fa-location-dot"></i> Denpasar, Bali
+                            </span>
+
+                            <div class="badge-wrap">
+                                <span class="badge-type">House</span>
+                                <span class="badge-rating">
+                                    <i class="fa-solid fa-star"></i> 4.8
+                                </span>
+                            </div>
+
+                            <span class="fav"><i class="fa-regular fa-heart"></i></span>
+                        </div>
+
+                        <div class="property-body">
+                            <h6>White Home Alam Sutra</h6>
+
+                            <div class="info">
+                                <span><i class="fa-solid fa-bed"></i> 4</span>
+                                <span><i class="fa-solid fa-bath"></i> 2</span>
+                                <span><i class="fa-solid fa-expand"></i> 240m²</span>
+                            </div>
+
+                            <div class="price text-black">$120,000.00</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="text-center mt-5">
+                <button id="viewMoreBtn" class="btn btn-outline-dark rounded-pill px-4" onclick="showMoreCards()">
+                    View More
+                </button>
+
+                <button id="backBtn" class="btn btn-outline-secondary rounded-pill px-4 d-none"
+                    onclick="hideExtraCards()">
+                    ← Back
+                </button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="py-5 bg-light" data-aos="zoom-in">
+        <div class="container">
+
+            <h3 class="fw-bold mb-4 text-black" data-aos="fade-right">Popular Region</h3>
+
+            <div class="region-grid" data-aos="zoom-in">
+
+                <!-- CARD -->
+                <div class="region-card" data-aos="fade-right">
+                    <img src="image/jakarta.jpg" alt="" class="image">
+                    <div class="region-overlay" data-aos="fade-right">
+                        <h4>Jakarta</h4>
+                        <button class="btn btn-outline-light btn-sm rounded-pill" data-aos="zoom-in">
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="region-card" data-aos="fade-right">
+                    <img src="image/bandung.jpg" alt="" class="image">
+                    <div class="region-overlay" data-aos="fade-right">
+                        <h4>Bandung</h4>
+                        <button class="btn btn-outline-light btn-sm rounded-pill">
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="region-card" data-aos="fade-right">
+                    <img src="image/bali.jpg" alt="" class="image">
+                    <div class="region-overlay" data-aos="fade-right">
+                        <h4>Bali</h4>
+                        <button class="btn btn-outline-light btn-sm rounded-pill">
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="region-card" data-aos="zoom-in">
+                    <img src="image/yoga.jpg" alt="" class="image">
+                    <div class="region-overlay" data-aos="fade-right">
+                        <h4>Yogyakarta</h4>
+                        <button class="btn btn-outline-light btn-sm rounded-pill">
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="region-card" data-aos="zoom-in">
+                    <img src="image/surabaya.jpg" alt="" class="image">
+                    <div class="region-overlay" data-aos="fade-right">
+                        <h4>Surabaya</h4>
+                        <button class="btn btn-outline-light btn-sm rounded-pill">
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="region-card" data-aos="zoom-in">
+                    <img src="image/more.jpg" alt="" class="image">
+                    <div class="region-overlay" data-aos="fade-right">
+                        <h4>More Region</h4>
+                        <button class="btn btn-outline-light btn-sm rounded-pill">
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-5 bg-white" data-aos="zoom-in">
+        <div class="container">
+
+            <h3 class="fw-bold mb-4 text-black" data-aos="fade-right">Learn about property</h3>
+
+            <div class="row g-4" data-aos="fade-right">
+
+                <!-- LEFT FEATURED ARTICLE -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="article-feature" data-aos="fade-right">
+                        <img src="image/kitchen.jpg" alt="" class="image">
+                        <div class="article-content" data-aos="fade-right">
+                            <h4>
+                                How to add color to your kitchen:
+                                From color cabinets to fresh flowers
+                            </h4>
+                            <p>
+                                Introduction: Achieving a colorful kitchen doesn’t have to be expensive
+                                or difficult. There are a variety of ways to add color, whether it’s
+                                through your cabinets, decor, or fresh flowers.
+                            </p>
+
+                            <div class="tags" data-aos="fade-right">
+                                <span>Interior design</span>
+                                <span>kitchen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT ARTICLES -->
+                <div class="col-lg-6" data-aos="fade-right">
+
+                    <div class="article-list" data-aos="fade-right">
+
+                        <!-- ITEM -->
+                        <div class="row article-item" data-aos="fade-right">
+                            <div class="col-lg-4 aritcle-image">
+                                <img src="image/ferniture.jpg" alt="" class="image">
+                            </div>
+                            <div class="col-lg-8" data-aos="fade-right">
+                                <h6>How to choose the right furniture for your home like a pro.</h6>
+                                <p>
+                                    It can be fun, but also a challenge to choose the right furniture &
+                                    decor products for your home.
+                                </p>
+                                <div class="tags" data-aos="fade-right">
+                                    <span>decoration</span>
+                                    <span>home</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row article-item" data-aos="fade-right">
+                            <div class="col-lg-4 aritcle-image">
+                                <img src="image/bangla.jpg" alt="" class="image">
+                            </div>
+                            <div class="col-lg-8" data-aos="fade-right">
+                                <h6>
+                                    6 Ways to filter what you need before discover more about your home
+                                </h6>
+                                <p>
+                                    Building self-awareness resembles building a house.
+                                    Here’s how to find the bricks, cement, tools, and design.
+                                </p>
+                                <div class="tags" data-aos="fade-right">
+                                    <span>property</span>
+                                    <span>real estate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row article-item" data-aos="fade-right">
+                            <div class="col-lg-4 aritcle-image">
+                                <img src="image/home1.jpg" alt="" class="image">
+                            </div>
+                            <div class="col-lg-8" data-aos="fade-right">
+                                <h6>
+                                    6 Things to Watch Out for When Shopping for Homes in Burlingame
+                                </h6>
+                                <p>
+                                    Avoiding red flags when shopping for homes can save time and money.
+                                </p>
+                                <div class="tags" data-aos="fade-right">
+                                    <span>real estate</span>
+                                    <span>tips</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="results-section" data-aos="fade-right">
+        <div class="container" data-aos="fade-right">
+
+            <!-- HEADER -->
+            <div class="results-header" data-aos="fade-right">
+                <h2>
+                    Results that <span>speak</span> for themselves.
+                </h2>
+                <p>
+                    BrightHome has successfully matched premium homes with families across top
+                    neighborhoods, ensuring satisfaction, value, and smooth buying experiences.
+                </p>
+            </div>
+
+            <!-- GRID -->
+            <div class="results-grid" data-aos="zoom-in">
+
+                <!-- LEFT TEXT CARD -->
+                <div class="results-card text-card" data-aos="fade-right">
+                    <div class="head">
+                        <h3>1200+</h3>
+                        <h5>Homes sold in just 2025</h5>
+                    </div>
+
+                    <p>
+                        Our relationships, market data, and strong local presence help homeowners
+                        take confident steps into their next chapter. BrightHome has successfully
+                        matched premium homes with families across top neighborhoods.
+                    </p>
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="results-card image-card" data-aos="fade-left">
+                    <img src="image/home2.jpg" alt="Modern House" class="image">
+                </div>
+
+                <!-- LEFT IMAGE -->
+                <div class="results-card image-card" data-aos="fade-up-left">
+                    <img src="image/home3.jpg" alt="Luxury House" class="image">
+                </div>
+
+                <!-- RIGHT TEXT CARD -->
+                <div class="results-card text-card" data-aos="fade-up-right">
+                    <div class="head">
+                        <h3>$885M+</h3>
+                        <h5>Total property value successfully handled</h5>
+                    </div>
+
+                    <p>
+                        We’ve handled high-value properties with accuracy, transparency,
+                        and trust — ensuring premium results for every client.
+                        We manage high-value properties with precision, integrity, and full transparency — delivering
+                        consistent, premium outcomes for every client we represent.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="testimonial-section" data-aos="fade-up-right">
+        <h3 class="testimonial-title">What people said about us</h3>
+
+        <div class="testimonial-slider">
+
+            <!-- LEFT ARROW -->
+            <button id="prevBtn" class="slider-btn left" onclick="prevTestimonial()">‹</button>
+
+            <!-- SLIDES -->
+            <div class="testimonial-track">
+
+                <!-- SLIDE 1 -->
+                <div class="testimonial-card active">
+                    <div class="testimonial-img-wrap">
+                        <img src="image/person.jpg" alt="Person">
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            This platform is awesome. I find my new home for my family in
+                            Jakarta and this the process is very easy.
+                            Trusted & Guaranteed.
+                             Professional team with deep market knowledge.
+                            They guided us clearly and honestly through every step
+                        </p>
+
+                        <h6 class="name">Jimmy Sullivan</h6>
+                        <span class="role">Art Director at Gojek</span>
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img-wrap">
+                        <img src="image/person2.jpg" alt="Person">
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            Professional team with deep market knowledge.
+                            They guided us clearly and honestly through every step.
+                            This platform is awesome. I find my new home for my family in
+                            Jakarta and this the process is very easy.
+                            Trusted & Guaranteed.
+                        </p>
+
+                        <h6 class="name">Daniel Kim</h6>
+                        <span class="role">Software Engineer</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT ARROW -->
+            <button id="nextBtn" class="slider-btn right" onclick="nextTestimonial()">›</button>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="trust-section" data-aos="zoom-in">
+        <div class="container" data-aos="fade-up-right">
+
+            <!-- Heading -->
+            <h2 class="trust-title" data-aos="fade-up-right">
+                Trusted by <span>homeowners</span><br>
+                and buyers alike.
+            </h2>
+
+            <!-- Grid -->
+            <div class="trust-grid" data-aos="fade-up-right">
+
+                <!-- Card 1 -->
+                <div class="trust-card" data-aos="fade-up-right">
+                    <img src="image/person1.jpg" alt="">
+                    <div class="card-overlay">
+                        <h6>James R. Holloway</h6>
+                        <p class="role">Senior Project Manager</p>
+                    </div>
+                    <div class="card-quote">
+                        “They know the market inside and out and positioned our property perfectly.”
+                    </div>
+                </div>
+
+                <!-- Card 2 (Quote Only) -->
+
+
+                <!-- Card 3 -->
+                <div class="trust-card" data-aos="zoom-in">
+                    <img src="image/person2.jpg" alt="">
+                    <div class="card-overlay">
+                        <h6>Daniel Kim</h6>
+                        <p class="role">Software Engineer</p>
+                    </div>
+                    <div class="card-quote">
+                        “A knowledgeable team that genuinely cares. Their insights made all the difference.”
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="trust-card" data-aos="fade-up-left">
+                    <img src="image/person3.jpg" alt="">
+                    <div class="card-overlay">
+                        <h6>Michael Torres</h6>
+                        <p class="role">Business Owner</p>
+                    </div>
+                    <div class="card-quote">
+                        “The BrightHome team helped us navigate every decision with clarity and confidence.”
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-section" data-aos="zoom-in">
+        <div class="container">
+            <div class="row gy-5">
+
+                <!-- BRAND -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-brand mb-4">
+                        <span class="logo-box">Real</span>
+                        <span class="logo-text">Estate</span>
+                    </div>
+
+                    <p class="footer-text">
+                        128 Market St.<br>
+                        20193 San Francisco<br>
+                        California Suite #201
+                    </p>
+
+                    <div class="social-icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+
+                <!-- ABOUT -->
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h6 class="footer-title">About</h6>
+                    <ul class="footer-links">
+                        <li>Privacy & Policy</li>
+                        <li>About Us</li>
+                        <li>Trending Property</li>
+                        <li>Project Location</li>
+                        <li>Property Awards</li>
+                    </ul>
+                </div>
+
+                <!-- CUSTOMER SERVICE -->
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h6 class="footer-title">Customer Service</h6>
+                    <ul class="footer-links">
+                        <li>How it works</li>
+                        <li>Career</li>
+                        <li>FAQs</li>
+                        <li>Contact Us</li>
+                        <li>Academy</li>
+                    </ul>
+                </div>
+
+                <!-- APP & PAYMENT -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="footer-title">Get the App</h6>
+
+                    <div class="app-buttons mb-4">
+                        <img src="image/app1.jpg" alt="App Store">
+                        <img src="image/google.jpg" alt="Google Play">
+                    </div>
+
+                    <h6 class="footer-title mt-3">Payment Support</h6>
+
+                    <div class="payment-icons">
+                        <img src="image/paypal.jpg">
+                        <img src="image/klarna.jpg">
+                        <img src="image/visa.jpg">
+                        <img src="image/mastercard.jpg">
+                        <img src="image/ovo.jpg">
+                        <img src="image/dana.jpg">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOTTOM BAR -->
+            <div class="footer-bottom mt-5 text-center">
+                © 2025 Real Estate. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
+
+    <script>
+        function showMoreCards() {
+            document.querySelectorAll('.extra-card').forEach(card => {
+                card.classList.remove('d-none');
+            });
+
+            document.getElementById('viewMoreBtn').classList.add('d-none');
+            document.getElementById('backBtn').classList.remove('d-none');
+        }
+
+        function hideExtraCards() {
+            document.querySelectorAll('.extra-card').forEach(card => {
+                card.classList.add('d-none');
+            });
+
+            document.getElementById('backBtn').classList.add('d-none');
+            document.getElementById('viewMoreBtn').classList.remove('d-none');
+
+            // scroll back to top of section (optional but professional)
+            document.querySelector('section').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <script>
+        document.querySelectorAll('.animate-text').forEach(el => {
+            const words = el.innerText.split(' ');
+            el.innerHTML = '';
+
+            words.forEach((word, i) => {
+                const span = document.createElement('span');
+                span.textContent = word + ' ';
+                span.style.animationDelay = `${i * 0.15}s`;
+                el.appendChild(span);
+            });
+        });
+    </script>
+
+    <script>
+        let index = 0;
+
+        const track = document.querySelector('.testimonial-track');
+        const slides = document.querySelectorAll('.testimonial-card');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        function updateSlider() {
+            track.style.transform = `translateX(-${index * 100}%)`;
+
+            prevBtn.disabled = index === 0;
+            nextBtn.disabled = index === slides.length - 1;
+        }
+
+        function nextTestimonial() {
+            if (index < slides.length - 1) {
+                index++;
+                updateSlider();
+            }
+        }
+
+        function prevTestimonial() {
+            if (index > 0) {
+                index--;
+                updateSlider();
+            }
+        }
+
+        updateSlider();
+    </script>
+
+
+
+
+</body>
+
+</html>
